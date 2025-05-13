@@ -149,3 +149,14 @@ PC用のスタイル
      display: block;
    }
 }
+
+/* PC用のスタイル */
+@media screen and (min-width: 768px) {
+  /* ハンバーガーメニュー非表示 */
+  #menu-sp {
+    display: none;
+  }
+   #nav-sp {
+    display: none;
+  }
+}
