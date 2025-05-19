@@ -58,6 +58,17 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+
+  /* ハンバーガーメニュー非表示 */
+  #menu-sp {
+    display: none;
+  }
+
+  /* スマホ用ナビゲーション非表示 */
+   #nav-sp {
+    display: none;
+  }
+
 }
 
 /*====================
@@ -69,6 +80,8 @@ PC用のスタイル
      display: none;
    }
 
+   
+
    body {
     min-width: 375px;
     margin: 0;
@@ -76,8 +89,10 @@ PC用のスタイル
 
    /* ハンバーガーメニュー */
   #menu-sp {
+    background-color: transparent;
     float: right;
     padding: 0;
+    border: none;
   }
 
   /* スマホ用ナビゲーションの表示切替*/
